@@ -17,20 +17,20 @@ fields:
     type: string
     label: Password
     secret: true
-  - id: SN_INSTANCE
+  - id: SN_HOST
     type: string
     label: Snow Instance
 required:
   - SN_USERNAME
   - SN_PASSWORD
-  - SN_INSTANCE
+  - SN_HOST
 ```
 
 Injector configuration:
 
 ```yaml
 env:
-  SN_INSTANCE: '{{ SN_INSTANCE }}'
+  SN_HOST: '{{ SN_HOST }}'
   SN_PASSWORD: '{{ SN_PASSWORD }}'
   SN_USERNAME: '{{ SN_USERNAME }}'
 ```

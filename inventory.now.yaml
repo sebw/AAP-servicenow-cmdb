@@ -1,10 +1,9 @@
+---
 plugin: servicenow.itsm.now
-table: cmdb_ci_linux_server
-fields: [ip_address,fqdn,host_name,sys_class_name,name,os]
+query:
+  - os: = Linux Red Hat
+  - os: = Windows XP
 keyed_groups:
-  - key: sn_sys_class_name | lower
-    prefix: ''
-    separator: ''
-  - key: sn_os | lower
-    prefix: ''
-    separator: ''
+  - key: os
+    prefix: os
+
