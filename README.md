@@ -52,7 +52,7 @@ Save and sync.
 - Credential type: Servicenow credentials
 - username: XYZ
 - password: XYZ
-- Snow instance: devXYZABC.service-now.com
+- Snow instance: devXYZABC
 
 ## Create an inventory.
 
