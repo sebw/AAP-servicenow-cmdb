@@ -69,3 +69,7 @@ Add an inventory source.
 Sync.
 
 You should see your hosts and groups.
+
+## More info
+
+https://www.ansible.com/blog/using-an-inventory-plugin-from-a-collection-in-ansible-tower
